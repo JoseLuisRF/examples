@@ -1,4 +1,3 @@
-
 package apps.arusoft.com.rxjavaexample;
 
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +13,9 @@ import rx.Subscription;
 import rx.functions.Action1;
 import rx.functions.Func1;
 
+/**
+ * @author Jose Luis Ramos Fernandez
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
