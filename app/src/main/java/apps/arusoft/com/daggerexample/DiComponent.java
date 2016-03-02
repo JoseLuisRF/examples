@@ -9,8 +9,9 @@ import dagger.Component;
  */
 
 @Singleton
-@Component(modules = {NetworkApiModule.class})
+@Component(modules = {NetworkApiModule.class, DataBaseManagerModule.class})
 public interface DiComponent {
     // to update the fields in your activities
     void inject(MainActivity activity);
+    DataBaseManager getDataBaseManager();
 }
